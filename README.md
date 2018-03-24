@@ -1,0 +1,1 @@
+My First Application is an android application with the name "Where should i go" this app lets us choose places then it shows us the available Restaurants in that specific place then we can see details about each of the Restuarants by clicking them.this Application uses MVC pattern.

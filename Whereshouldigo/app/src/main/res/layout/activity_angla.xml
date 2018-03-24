@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        tools:context="com.example.android.whereshouldigo.Angla">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/image8" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#E91E63"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic"
+
+            android:text="Angla" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#E91E63"
+            android:layout_marginLeft="100dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="italic"
+
+            android:text="Burger" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Location: Bole"/>
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="20dp"
+            android:text="Address:  Bole kilo next to edna mall"/>
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="20dp"
+            android:text="Phone number: 0911######"/>
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:text="Email : angla@gmail.com"/>
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample foods"
+            android:textColor="#F06292"
+            android:textSize="30sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/image10"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"/>
+            <TextView
+                android:id="@+id/sample1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Burger"
+                android:textColor="#880E4F"
+                android:layout_below="@+id/img1"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"/>
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pizza"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/img1"/>
+            <TextView
+                android:id="@+id/sample2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#880E4F"
+                android:text="Pizza"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/img2"
+                android:layout_toRightOf="@id/img1"/>
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/image30"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/img1"/>
+            <TextView
+                android:id="@+id/sample3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fried Chciken"
+                android:textColor="#880E4F"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/img3"/>
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/image2"
+                android:layout_toRightOf="@id/img3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/img2"/>
+            <TextView
+                android:id="@+id/sample4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shawarma"
+                android:layout_marginLeft="20dp"
+                android:textColor="#880E4F"
+                android:layout_below="@id/img4"
+                android:layout_toRightOf="@id/img3"
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

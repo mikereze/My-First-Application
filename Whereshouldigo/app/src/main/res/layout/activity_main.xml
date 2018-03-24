@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.android.whereshouldigo.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Places"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/bole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bole"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:background="#6A1B9A"
+        android:onClick="check"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/gerji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp"
+        android:background="#6A1B9A"
+        android:layout_toRightOf="@+id/bole"
+        android:text="Gerji" />
+    <Button
+        android:id="@+id/piassa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piassa"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/bole"
+        android:background="#6A1B9A"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/bole_michael"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/piassa"
+        android:layout_below="@+id/gerji"
+        android:layout_marginLeft="120dp"
+        android:background="#6A1B9A"
+        android:text="Bole Michael" />
+    <Button
+        android:id="@+id/welosefer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welosefer"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/piassa"
+        android:background="#6A1B9A"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/hayahulet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/welosefer"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/bole_michael"
+        android:background="#6A1B9A"
+        android:text="HayaHulet" />
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="com.example.android.whereshouldigo.Hayahulet">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bole"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            />
+        <Button
+            android:id="@+id/bole_btn1"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/logo1"
+            android:layout_marginTop="10dp"
+            android:text="Romina"
+            android:onClick="rominalistner"
+            android:layout_below="@+id/title" />
+        Button>
+
+        <Button
+            android:id="@+id/bole_btn2"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/logo2"
+            android:layout_marginTop="10dp"
+            android:text="Wow"
+            android:layout_below="@+id/bole_btn1" />
+        <Button
+            android:id="@+id/bole_btn3"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/logo3"
+            android:layout_marginTop="10dp"
+            android:text="Angla"
+            android:layout_below="@+id/bole_btn2" />
+        <Button
+            android:id="@+id/bole_btn4"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/logo4"
+            android:layout_marginTop="10dp"
+            android:text="In n Out"
+            android:layout_below="@+id/bole_btn3"  />
+        <Button
+            android:id="@+id/bole_btn5"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/logo5"
+            android:layout_marginTop="10dp"
+            android:text="Cade"
+            android:layout_below="@+id/bole_btn4"  />
+
+
+
+    </RelativeLayout>
+</ScrollView>
