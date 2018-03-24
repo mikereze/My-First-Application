@@ -1,8 +1,8 @@
 # My First Application
 Name: Michale Rezene  
 Id: ATR/5760/08
-Section: 2
 Department: Software Engineering
+
 My First Application is an android application with the name "Where should i go" .
 this app lets us choose places then it shows us the available Restaurants in that specific place 
 then we can see details about each of the Restuarants by clicking them.
